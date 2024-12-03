@@ -36,33 +36,32 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: fixed; /* Fixes the heart in the center */
-  top: 50%; /* Centers vertically */
-  left: 20%; /* Centers horizontally */
+  top: 40%; /* Centers vertically */
+  left: 30%; /* Centers horizontally */
 /*   transform: translate(-50%, -50%); /* Ensures perfect centering */ */
 }
+
 
 #counter {
   font-size: 1.5em;
   margin-top: 20px;
 }
 
-}
 
 
 /* Proposal Section */
-.proposal {
-  width: 100%;
-  text-align: center;
+#proposal {
+  width: 80%;
   font-size: 1.5em;
   line-height: 1.8em;
-  background: rgba(255, 192, 203, 0.8);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+  text-align: center;
   position: fixed;
-  bottom: 10px;
-  top: 50%; /* Centers vertically */
-  left: 80%
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .buttons {
