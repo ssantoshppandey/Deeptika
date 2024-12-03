@@ -37,7 +37,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: fixed; /* Fixes the heart in the center */
   top: 40%; /* Centers vertically */
-  left: 30%; /* Centers horizontally */
+  left: 20%; /* Centers horizontally */
 /*   transform: translate(-50%, -50%); /* Ensures perfect centering */ */
 }
 
