@@ -29,7 +29,7 @@ body {
 /* Heart and Counter */
 .heart-container {
   width: 40%;
-/*   text-align: center; */
+  text-align: center; */
   color: black;
 /*   background: rgba(255, 255, 255, 0.8); */
   padding: 20px;
@@ -37,7 +37,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: fixed; /* Fixes the heart in the center */
   top: 50%; /* Centers vertically */
-  left: 80%; /* Centers horizontally */
+  left: 60%; /* Centers horizontally */
 /*   transform: translate(-50%, -50%); /* Ensures perfect centering */ */
 }
 
