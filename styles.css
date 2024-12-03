@@ -19,7 +19,7 @@ body {
   font-size: 1.5em;
   line-height: 1.8em;
   background: rgba(0, 0, 0, 0.5);
-  background-align:centre;
+/*   background-align:centre; */
   padding: 15px;
   border-radius: 10px;
   margin-top: 10px;
@@ -61,6 +61,8 @@ body {
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
   position: relative;
   bottom: 10px;
+  top: 50%; /* Centers vertically */
+  left: 70%
 }
 
 .buttons {
