@@ -36,8 +36,8 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: fixed; /* Fixes the heart in the center */
-  top: 50%; /* Centers vertically */
-  left: 60%; /* Centers horizontally */
+  top: 40%; /* Centers vertically */
+  left: 30%; /* Centers horizontally */
 /*   transform: translate(-50%, -50%); /* Ensures perfect centering */ */
 }
 
@@ -59,10 +59,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
-  position: relative;
+  position: fixed;
   bottom: 10px;
   top: 50%; /* Centers vertically */
-  left: 70%
+  left: 80%
 }
 
 .buttons {
