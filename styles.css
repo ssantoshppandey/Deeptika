@@ -34,16 +34,19 @@ body {
   padding: 20px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: fixed; /* Fixes the heart in the center */
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); /* Ensures perfect centering */
 }
 
 #counter {
   font-size: 1.5em;
   margin-top: 20px;
 }
+
+}
+
 
 /* Proposal Section */
 .proposal {
